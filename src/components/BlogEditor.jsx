@@ -43,7 +43,7 @@ function BlogEditor() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/blogs", {
+        const response = await axios.get("https://blog-backend-production-7b89.up.railway.app/api/blogs", {
           withCredentials: true,
         });
 
@@ -70,7 +70,7 @@ function BlogEditor() {
 
   const getBlogById = async (item) => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/blogs/${item._id}`);
+      const response = await axios.get(`https://blog-backend-production-7b89.up.railway.app/api/blogs/${item._id}`);
 
       console.log("response.data:", response.data);
 
@@ -108,7 +108,7 @@ function BlogEditor() {
 
     try {
 
-      const response = await axios.post("http://localhost:8000/api/blogs/savedraft", {
+      const response = await axios.post("https://blog-backend-production-7b89.up.railway.app/api/blogs/savedraft", {
         title,
         content,
         tags: updatedTags,
