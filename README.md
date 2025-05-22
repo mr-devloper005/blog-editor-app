@@ -1,16 +1,40 @@
-<<<<<<< HEAD
-# React + Vite
+<h1 align="center">📝 Yash Blog Editor — A Full-Stack Blog Editor</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A powerful MERN-based blogging app where users can share ideas, save drafts, and publish their thoughts with the world.
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Project
 
-## Expanding the ESLint configuration
+- 🌐 Frontend: [https://https://yashblogeditor.netlify.app](https://https://yashblogeditor.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# blog-editor-app
->>>>>>> 8ae8480ea2dae92988c41310af8d6eed34f3f283
+---
+
+## 🧰 Tech Stack
+
+| Layer    | Tech Used                 |
+| -------- | ------------------------- |
+| Frontend | React, TailwindCSS, Axios |
+| Backend  | Node.js, Express.js       |
+| Database | MongoDB + Mongoose        |
+| Auth     | JWT + HTTP-Only Cookies   |
+| Hosting  | Netlify, Railway (BE)     |
+
+---
+
+## ✨ Features
+
+- 🔐 Secure JWT Authentication (Access + Refresh tokens)
+- 🧾 Blog creation with `published` and `draft` status
+- ⚙️ Role-based actions (Admin/User)
+- 🍪 HTTP-only cookies for secure token handling
+- 🧠 Optimized CORS & credentials setup
+- 💻 Fully responsive UI with TailwindCSS
+
+---
+
+---
+
+## 📁 Folder Structure
