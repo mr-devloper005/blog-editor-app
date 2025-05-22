@@ -142,7 +142,7 @@ function BlogEditor() {
 
     try {
       e.preventDefault();
-      const response = await axios.post("http://localhost:8000/api/blogs/publish", {
+      const response = await axios.post("https://blog-backend-production-7b89.up.railway.app/api/blogs/publish", {
         title,
         content,
         tags: updatedTags, id

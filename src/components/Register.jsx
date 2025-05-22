@@ -16,7 +16,7 @@ function Register() {
     console.log()
 
     try {
-     const response = await axios.post("http://localhost:8000/api/auth/register-user",{
+     const response = await axios.post("https://blog-backend-production-7b89.up.railway.app/api/auth/register-user",{
       name:data.name,
       email: data.email,
       password: data.password,
