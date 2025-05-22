@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-toolbar {
+  min-height: 60px !important;
+  padding: 12px !important;
+  border: none;
+}
+.ql-toolbar .ql-formats {
+  margin-right: 16px;
+  border: none
+}
+.ql-toolbar button {
+  padding: 8px !important;
+  height: 40px !important;
+}
+.ql-snow{
+  border: none;
+}
+
+
+.ql-container {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ql-editor {
+  min-height: 300px;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+    border: none;
+  outline: none ;
+}
