@@ -324,7 +324,9 @@ function BlogEditor() {
   const getBlogById = async (item) => {
     try {
       const response = await axios.get(
-        `https://blog-backend-production-7b89.up.railway.app/api/blogs/${item._id}`
+        `https://blog-backend-production-7b89.up.railway.app/api/blogs/${item._id}`,{
+  withCredentials: true, // 👈👈 MOST IMPORTANT
+}
       );
       const blog = response.data;
 
