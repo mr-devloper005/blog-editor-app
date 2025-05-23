@@ -8,19 +8,20 @@
 
 ## 🚀 Live Project
 
-- 🌐 Frontend: [https://https://yashblogeditor.netlify.app](https://https://yashblogeditor.netlify.app)
+- 🌐 Frontend: [https://yashblogeditor.netlify.app](https://yashblogeditor.netlify.app)
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer    | Tech Used                 |
+600037194534
+| Layer | Tech Used |
 | -------- | ------------------------- |
 | Frontend | React, TailwindCSS, Axios |
-| Backend  | Node.js, Express.js       |
-| Database | MongoDB + Mongoose        |
-| Auth     | JWT + HTTP-Only Cookies   |
-| Hosting  | Netlify, Railway (BE)     |
+| Backend | Node.js, Express.js |
+| Database | MongoDB + Mongoose |
+| Auth | JWT + HTTP-Only Cookies |
+| Hosting | Netlify, Railway (BE) |
 
 ---
 
