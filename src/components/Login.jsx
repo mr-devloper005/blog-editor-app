@@ -17,7 +17,7 @@ function Login() {
     console.log()
 
     try {
-     const response = await axios.post("https://blog-backend-production-7b89.up.railway.app/api/auth/login-user",{
+     const response = await axios.post("https://blog-backend-qvjh.onrender.com/api/auth/login-user",{
       email: data.email,
       password: data.password,
     },{ withCredentials: true });
@@ -77,7 +77,7 @@ function Login() {
         />
         <button
           type="submit"
-          className="bg-black text-white h-16 active:scale-95 w-56 rounded-xl">
+          className="bg-black  text-white h-16 active:scale-95 w-56 rounded-xl">
           Submit
         </button>
 

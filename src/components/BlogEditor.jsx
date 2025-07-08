@@ -324,8 +324,8 @@ function BlogEditor() {
   const getBlogById = async (item) => {
     try {
       const response = await axios.get(
-        `https://blog-backend-production-7b89.up.railway.app/api/blogs/${item._id}`,{
-  withCredentials: true, // 👈👈 MOST IMPORTANT
+        `https://blog-backend-qvjh.onrender.com/api/blogs/${item._id}`,{
+  withCredentials: true, 
 }
       );
       const blog = response.data;
@@ -353,7 +353,7 @@ function BlogEditor() {
 
     try {
       const response = await axios.post(
-        "https://blog-backend-production-7b89.up.railway.app/api/blogs/savedraft",
+        "https://blog-backend-qvjh.onrender.com/api/blogs/savedraft",
         { title, content, tags: updatedTags, id },
         { withCredentials: true }
       );
@@ -379,7 +379,7 @@ function BlogEditor() {
 
     try {
       const response = await axios.post(
-        "https://blog-backend-production-7b89.up.railway.app/api/blogs/publish",
+        "https://blog-backend-qvjh.onrender.com/api/blogs/publish",
         { title, content, tags: updatedTags, id },
         { withCredentials: true }
       );
